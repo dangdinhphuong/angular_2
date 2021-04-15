@@ -1,0 +1,135 @@
+<div id="content" class="site-content">
+  <div id="primary" class="content-area column full">
+    <main id="main" class="site-main">
+      <div class="row">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block col-12"
+                src="https://img4.thuthuatphanmem.vn/uploads/2020/05/13/anh-nen-4k-bo-bien_062606396.jpg"
+                style="height: 350px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: red">Lorem ipsum</h3>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione, temporibus?
+                </h2>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <br />
+
+      <div class="card col-12">
+        <div class="card-header col-12">Sản phẩm mới nhất</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card" *ngFor="let produc of pro">
+                  <a
+                    href="javascript:;"
+                    routerLink="/shop/shopdetail/{{ produc.id }}" style="color: black;"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="{{ produc.image }}"
+                      alt="Card image cap"
+                      style="height: 250px"
+                    />
+                    <div class="card-body">
+                      <label>{{ produc.price }} <i>VNĐ</i> </label>
+
+                      <p class="card-text">{{ produc.name }}</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="card-footer" style="text-align: center"
+                    ><i class="fas fa-cart-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <footer class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer></a
+            >
+          </blockquote>
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="card col-12">
+        <div class="card-header col-12">Sản phẩm giảm giá</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card" *ngFor="let sales of sale">
+                  <a
+                    href="javascript:;"
+                    routerLink="/shop/shopdetail/{{ sales.id }}"style="color: black;"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="{{ sales.image }}"
+                      alt="Card image cap"
+                      style="height: 250px"
+                    />
+                    <div class="card-body">
+                      <label
+                        >{{ sales.price }} <i>VNĐ</i>
+                        <b> (-{{ sales.sale }}%)</b></label
+                      >
+
+                      <p class="card-text">{{ sales.name }}</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="card-footer" style="text-align: center"
+                    ><i class="fas fa-cart-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <footer class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer></a
+            >
+          </blockquote>
+        </div>
+      </div>
+      <!-- .grid -->
+      <br />
+    </main>
+    <!-- #main -->
+  </div>
+  <!-- #primary -->
+</div>

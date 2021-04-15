@@ -1,0 +1,95 @@
+{
+  "categories": [
+    {
+      "name": "Rau củ",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Hải sản"
+    },
+    {
+      "name": "Hoa quả trong nước",
+      "id": 3
+    },
+    {
+      "name": "Hoa quả sấy",
+      "id": 4
+    },
+    {
+      "name": "Thịt các loại",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "date": 1618475411133,
+      "categoryId": 1,
+      "supplierId": 6,
+      "description": "không ngon không lấy tiền ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618338318462?alt=media&token=c9b00fa9-0bf1-4e0f-be6d-977f9cbbf7c0",
+      "name": "gạo tám thơm",
+      "price": 350000,
+      "sale": 20
+    },
+    {
+      "id": 2,
+      "date": 1618485265718,
+      "categoryId": "4",
+      "supplierId": 4,
+      "description": "dsafdsfdf",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618381444019?alt=media&token=0aba982b-fcf3-4655-8b64-b8abb726ca26",
+      "name": "ngon dâu",
+      "price": 10000,
+      "sale": 22
+    },
+    {
+      "id": 3,
+      "date": 1618429591666,
+      "categoryId": 3,
+      "supplierId": 6,
+      "description": "fgfgdfg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618429591666?alt=media&token=59badada-90b1-4b9a-ae96-1d2cae453a73",
+      "name": "cams lonw",
+      "price": 10000,
+      "sale": 22
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "thanh hà",
+      "id": 3
+    },
+    {
+      "name": "Tấn tài",
+      "id": 4
+    },
+    {
+      "name": "Tam nguyên",
+      "id": 5
+    },
+    {
+      "name": "Thanh Phát",
+      "id": 6
+    },
+    {
+      "name": "Tâm phúc",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "hoa Thanh"
+    }
+  ],
+  "cons": [
+    {
+      "id": 1,
+      "name": "Đỗ Đăng Khoa2222"
+    },
+    {
+      "id": 2,
+      "name": "Lê Đỗ Quỳnh Hương"
+    }
+  ]
+}

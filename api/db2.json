@@ -1,0 +1,193 @@
+{
+  "categories_moster": [
+    {
+      "id": 1,
+      "name": "ĐẤU SĨ"
+    },
+    {
+      "id": 2,
+      "name": "PHÁP SƯ "
+    },
+    {
+      "id": 3,
+      "name": "TRỢ THỦ"
+    },
+    {
+      "id": 5,
+      "name": "ĐỠ ĐÒN"
+    },
+    {
+      "id": 6,
+      "name": "SÁT THỦ"
+    },
+    {
+      "id": 7,
+      "name": "XẠ THỦ"
+    }
+  ],
+  "moster": [
+    {
+      "id": 1,
+      "name": "Valhein",
+      "price": 780,
+      "categoryId": 7,
+      "image": "https://lienquan.garena.vn/files/skin/83d9de6ce9963f9ea406db2edd81707f5ee04e7551643.jpg",
+      "skin": 1,
+      "skill": 1,
+      "specifications": 1,
+      "date": "24/10/2000",
+      "story": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam reprehenderit ullam debitis nemo quia esse voluptatum ipsa labore unde?"
+    }
+  ],
+  "skin": [
+    {
+      "id": 1,
+      "name": "Vũ khí tối thượng",
+      "images": "https://lienquan.garena.vn/files/skin/8e95764aba543c343346346aa59adcce5c4938eca7cdf.jpg",
+      "id_moster":1
+    }
+  ],
+
+  "specifications": [
+    {
+      "id": 1,
+      "id_moster": 1,
+      "Public_physics": 173,
+      "permission": 0,
+      "Max_HP": 3592,
+      "armor": 141,
+      "magic_armor": 80,
+      "Attack_speed": 0,
+      "Cooldown_restriction": 0,
+      "critical_rate": 0,
+      "Speed_running": 360,
+      "Heal": 50,
+      "Energy_recovery": 15,
+      "Range_of_attack": "gần"
+    }
+  ],
+  "level": [
+    {
+      "id": 1,
+      "name": "Cấp 1"
+    },
+    {
+      "id": 2,
+      "name": "Cấp 2"
+    },
+    {
+      "id": 3,
+      "name": "Cấp 3"
+    }
+  ],
+  "Cate_Equipment": [
+    {
+      "id": 1,
+      "name": "Công"
+    },
+    {
+      "id": 2,
+      "name": "Phép"
+    },
+    {
+      "id": 3,
+      "name": "Thủ"
+    },
+    {
+      "id": 4,
+      "name": "Tốc đánh"
+    },
+    {
+      "id": 5,
+      "name": "Đi rừng"
+    },
+    {
+      "id": 6,
+      "name": "Trợ thủ"
+    }
+  ],
+  "Equipment": [
+    {
+      "id": 1,
+      "name": "Gươm tận thế",
+      "images": "https://lienquan.garena.vn/files/items/icon/fae96e865899f2e3e2cda185b58aee12583eafaae4a28.png",
+      "id_Cate_Equipment": 2,
+      "id_level": 3,
+      "price": 2190,
+      "method": "+200 Công phép +10% Giảm hồi chiêu  +30% Hồi năng lượng / 5s  [Sức mạnh nguyên tố] - Nội tại duy nhất: Sau khi tung chiêu, đòn đánh kế tiếp gây thêm 30% Công vật lý (+80% Công phép cộng thêm) sát thương phép, 2 giây hồi chiêu"
+    }
+  ],
+  "cate_gen": [
+    {
+      "id": 1,
+      "name": "Ngọc Xanh"
+    },
+    {
+      "id": 2,
+      "name": "Ngọc Đỏ"
+    },
+    {
+      "id": 3,
+      "name": "Ngọc Tím"
+    }
+  ],
+  "gen": [
+    {
+      "id": 1,
+      "name": "ĐỎ II TỐC ĐÁNH/MÁU/GIÁP",
+      "images": "https://lienquan.garena.vn/files/bb1f49ec3e79c433318b9996a59f541a5dbaaaca72ab0.png",
+      "method": "Tốc đánh +0.6%  Máu tối đa +21.1 Giáp +1.4",
+      "id_cate_gen": 2,
+      "id_level": 2
+    }
+  ],
+  "Auxiliary": [
+    {
+      "id": 1,
+      "name": "TỐC HÀNH",
+      "content": "100 giây hồi chiêu: Tăng 30% tốc chạy trong 10 giây",
+      "link_video": "https://youtu.be/VuYXDpvfeNU",
+      "images": "https://lienquan.garena.vn/files/011f068e44af36e08efb5814d395f3ee583ec14517012.png"
+    }
+  ],
+  "rank": [
+    {
+      "id": 1,
+      "name": "BẬC S",
+      "images": "https://lienquan.garena.vn/kg/images/item-1.png"
+    }
+  ],
+  "cate_new": [
+    {
+      "id": 1,
+      "name": "Cẩm nang"
+    },
+    {
+      "id": 2,
+      "name": "Sự kiện"
+    },
+    {
+      "id": 3,
+      "name": "Giải đấu"
+    }
+  ],
+  "new": [
+    {
+      "id": 1,
+      "images": "https://lienquan.garena.vn/files/posts/e70210ca258483ffdfa2f3651e75f8d3606d310607563.jpg",
+      "title": "ĐIỂM DANH NHỮNG VỊ TƯỚNG ĐANG 'LÀM MƯA LÀM GIÓ' ĐƯỜNG TÀ THẦN CAESAR SAU BẢN CẬP NHẬT TIẾN HÓA TỐI THƯỢNG",
+      "content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam reprehenderit ullam debitis nemo quia esse voluptatum ipsa labore unde?",
+      "id_cate_new": 2,
+      "date": "24/10/2000"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "dangxuong2000@gmail.com",
+      "password": "phuong2000",
+      "images": "https://lienquan.garena.vn/files/011f068e44af36e08efb5814d395f3ee583ec14517012.png",
+      "date": "24/10/2000"
+    }
+  ]
+}

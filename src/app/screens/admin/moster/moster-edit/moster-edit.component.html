@@ -1,0 +1,181 @@
+<div class="d-flex justify-content-between col-xl-12 col-lg-12">
+  <div class="col-xl-12 col-lg-12">
+    <!-- thêm tướng -->
+    <div class="card shadow mb-4">
+      <div class="card-header py-3 d-flex justify-content-between">
+        <h6 class="m-0 font-weight-bold text-primary">Sửa sản phẩm</h6><div>{{myDate  | date:"dd/MM/YYYY , h:mm:ss a"}}</div>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <form action="" (ngSubmit)="onSubmit($event)" [formGroup]="cateForm">
+            <div class="d-flex justify-content-start">
+              <div class="form-group col-xl-6 col-lg-6">
+                <label for="">Loại sản phẩm</label>
+                <select formControlName="categoryId"class="form-control">
+                
+                  <option [value]="0">
+                    {{ "Chọn loại sản phẩm" | titlecase }}
+                  </option>
+
+                  <option
+                    *ngFor="let cate of cates; index as i"
+                    [value]="cate.id"
+                  >
+                    {{ cate.name | titlecase }}
+                  </option>
+                </select>
+
+
+                <div
+                  class="alert alert-danger"
+                  *ngIf="
+                    f.categoryId.invalid &&
+                    (f.categoryId.dirty || f.categoryId.touched)
+                  "
+                >
+                  <span class="text-danger" *ngIf="f.categoryId.errors?.min">
+                    Chọn loại sản phẩm
+                  </span>
+                </div>
+              </div>
+              <div class="form-group col-xl-6 col-lg-6">
+                <label for="">Nhà cung cấp</label>
+                <select
+                  name=""
+                  formControlName="supplierId"
+                  id=""
+                  class="form-control"
+                >
+                  <option [value]="0">
+                    {{ "Chọn nhà cung cấp" | titlecase }}
+                  </option>
+
+                  <option
+                    *ngFor="let supplis of suppli; index as i"
+                    [value]="supplis.id"
+                  >
+                    {{ supplis.name | titlecase }}
+                  </option>
+                </select>
+
+                <div
+                  class="alert alert-danger"
+                  *ngIf="
+                    f.categoryId.invalid &&
+                    (f.categoryId.dirty || f.categoryId.touched)
+                  "
+                >
+                  <span class="text-danger" *ngIf="f.categoryId.errors?.min">
+                    Chọn loại sản phẩm
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group col-xl-12 col-lg-12">
+              <label for="">Tên sản phẩm</label>
+              <input type="text" formControlName="name" class="form-control" />
+              <div
+                class="alert alert-danger"
+                *ngIf="f.name.invalid && (f.name.dirty || f.name.touched)"
+              >
+                <span class="text-danger" *ngIf="f.name.errors?.required">
+                  Hãy nhập tên sản phẩm
+                </span>
+                <span class="text-danger" *ngIf="f.name.errors?.minlength">
+                  Tên sản phẩm cần có ít nhất 4 ký tự
+                </span>
+                <span class="text-danger" *ngIf="f.name.errors?.maxlength">
+                  Tên sản phẩm không nhiều hơn 20 ký tự
+                </span>
+              </div>
+            </div>
+            <div class="form-group col-xl-12 col-lg-12">
+              <label for="">Ảnh sản phẩm</label>
+              <input type="file" formControlName="image" class="form-control" />
+              <img src="{{images}}" style="width:'100px'"alt="">
+            </div>
+            <!-- {{f.image.value}} -->
+            <div class="d-flex justify-content-start">
+              <div class="form-group col-xl-6 col-lg-6">
+                <label for="">Giá sản phẩm (VNĐ)</label>
+                <input
+                  type="number"
+                  formControlName="price"
+                  class="form-control"
+                />
+                <div
+                  class="alert alert-danger"
+                  *ngIf="f.price.invalid && (f.price.dirty || f.price.touched)"
+                >
+                  <span class="text-danger" *ngIf="f.price.errors?.required">
+                    Hãy nhập Giá sản phẩm
+                  </span>
+                  <span class="text-danger" *ngIf="f.price.errors?.min">
+                    Giá sản phẩm lớn hơn 10000 VNĐ
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group col-xl-6 col-lg-6">
+                <label for="">Giảm giá sản phẩm (%)</label>
+                <input
+                  type="number"
+                  formControlName="sale"
+                  class="form-control"
+                />
+                <div
+                  class="alert alert-danger"
+                  *ngIf="f.sale.invalid && (f.sale.dirty || f.sale.touched)"
+                >
+                  <span class="text-danger" *ngIf="f.sale.errors?.required">
+                    Hãy giảm giá sản phẩm
+                  </span>
+                  <span class="text-danger" *ngIf="f.sale.errors?.min">
+                    Giảm giá sản phẩm không hợp lệ
+                  </span>
+                  <span class="text-danger" *ngIf="f.sale.errors?.max">
+                    Giảm giá sản phẩm tối đa 100%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-xl-12 col-lg-12">
+              <label for="">Mô tả sản phẩm</label>
+              <textarea
+                name=""
+                id=""
+                formControlName="description"
+                class="col-xl-12 col-lg-12"
+                rows="20"
+              ></textarea>
+            </div>
+            <!-- <div
+                class="alert alert-danger"
+                *ngIf="e.name.invalid && (e.name.dirty || e.name.touched)"
+              >
+                <span class="text-danger" *ngIf="e.name.errors?.required">
+                  Hãy nhập tên danh mục
+                </span>
+                <span class="text-danger" *ngIf="e.name.errors?.minlength">
+                  Tên danh mục cần có ít nhất 4 ký tự               
+                </span>
+                <span class="text-danger" *ngIf="e.name.errors?.maxlength">
+                  Tên danh mục không nhiều hơn 20 ký tự
+                </span>
+              </div> -->
+            <div class="text-center">
+              <button
+                type="submit"
+                [disabled]="cateForm.invalid"
+                class="btn btn-primary"
+              >
+                Lưu
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
