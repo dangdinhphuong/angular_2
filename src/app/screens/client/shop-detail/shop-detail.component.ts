@@ -12,28 +12,48 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ShopDetailComponent implements OnInit {
 
-  data!: any[];
   // pro: Products[] = [];
-  book :Products[] = [];
+  book:any;
   proId: Number = 0;
   constructor( private productsService:ProductsService, 
     private route: ActivatedRoute) { }
 
-  async ngOnInit() {
-    await this.route.params.subscribe(param => {
-      this.proId = param.id;
-      console.log(param.id);
-    });
-     await  this.getid();
+  //  ngOnInit() {
+  //   this.route.params.subscribe(param => {
+  //     this.proId = param.id;
+  //     console.log(param.id);
+  //     this.productsService.filBookID(this.proId).subscribe(item=>{
+  //       this.book = item;
+  //       console.log(this.book);
+      
+  //     }
+
+  //     );
+  //   });
+
+    ngOnInit() {
+      this.route.params.subscribe(params => {
+        this.proId = params.id;
+        this.productsService.findById(this.proId).subscribe(data => {
+          this.book = data;
+        });
+      });
+  
+      
+    }
+
+    
 
 
-  }
-getid(){
-  this.productsService.filBookID(this.proId).subscribe(item=>{
-    this.book=item;
-    console.log( this.book);
-    return item;
-  })
-}
+  // }
+
+
+  // getid(){
+  //   this.productsService.filBookID(this.proId).subscribe(item=>{
+  //     this.book=item;
+  //     console.log( this.book);// không in đc book
+    
+  //   })
+  // }
 
 }

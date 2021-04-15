@@ -50,9 +50,9 @@ export class ShopComponent implements OnInit {
   }
   search(){
     console.log(this.filterObject);
-
     this.productsService.getAll(this.filterObject).subscribe(data => {
-      this.product = data!;
+      this.product = data;
+      
     })
   }
 }

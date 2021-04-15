@@ -17,8 +17,8 @@
       "id": 4
     },
     {
-      "name": "Thịt các loại",
-      "id": 5
+      "id": 5,
+      "name": "Thịt các loại2"
     }
   ],
   "products": [
@@ -76,10 +76,6 @@
     {
       "name": "Tâm phúc",
       "id": 7
-    },
-    {
-      "id": 8,
-      "name": "hoa Thanh"
     }
   ],
   "cons": [

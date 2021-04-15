@@ -93,6 +93,7 @@ detele(item:any){
   // debugger;
   // console.log("test",item.products.length);
   // lấy thông tin danh mục
+  if(confirm('Bạn có chắc chắn muốn xoá không ?')){
   this.suppliersService.findById(item.id).subscribe(cate => {
     console.log(cate);
     this.suppliersService.delete(cate.id).subscribe(data=>{
@@ -101,5 +102,5 @@ detele(item:any){
     });
   });
   // xóa danh mục
-}
+}}
 }

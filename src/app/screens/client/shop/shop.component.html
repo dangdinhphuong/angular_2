@@ -23,8 +23,8 @@
                 </div>
             </div>
             <div class="row">
-           
-                <div class="card col-3" style="margin: 10px 0px;" *ngFor="let pro of product  | paginate: {itemsPerPage: 8 , currentPage: page};">
+          
+                <div class="card col-3" style="margin: 10px 0px;" *ngFor="let pro of product  | paginate: {itemsPerPage: 2 , currentPage: page};">
                     <a
                       href="javascript:;"
                       routerLink="/shop/shopdetail/{{ pro.id }}"style="color: black;"

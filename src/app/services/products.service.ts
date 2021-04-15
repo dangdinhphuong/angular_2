@@ -52,7 +52,9 @@ getAll(filter: any): Observable<any>{
   if(filter.keyword.length > 0){
     requestApi += `&name_like=${filter.keyword}`;
   }
- 
+ if(filter.categories!=""){
+  requestApi += `&categoryId=${filter.categories}`;
+ }
 
   return this.http.get<any>(requestApi);
 }

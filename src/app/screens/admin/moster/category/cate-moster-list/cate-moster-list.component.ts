@@ -101,6 +101,7 @@ saveCate(event: any){
 detele(item:Number){
   // debugger;
   console.log("test",item);
+  if(confirm('Bạn có chắc chắn muốn xoá không ?')){
   // lấy thông tin danh mục
   
   this.categoryService.findById(item).subscribe(cate => {
@@ -111,6 +112,7 @@ detele(item:Number){
       this.getMenuData();
     });
   });
+}
   // xóa danh mục
 }
 }
