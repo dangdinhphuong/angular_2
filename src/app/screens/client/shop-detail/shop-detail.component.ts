@@ -22,7 +22,7 @@ export class ShopDetailComponent implements OnInit {
   async ngOnInit() {
     await this.route.params.subscribe(param => {
       this.proId = param.id;
-      // console.log(param.id);
+      console.log(param.id);
     });
      await  this.getid();
 
