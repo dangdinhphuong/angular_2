@@ -12,30 +12,19 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ShopDetailComponent implements OnInit {
 
-  // pro: Products[] = [];
-  book:any;
+  pro:any;
   proId: Number = 0;
   constructor( private productsService:ProductsService, 
     private route: ActivatedRoute) { }
 
-  //  ngOnInit() {
-  //   this.route.params.subscribe(param => {
-  //     this.proId = param.id;
-  //     console.log(param.id);
-  //     this.productsService.filBookID(this.proId).subscribe(item=>{
-  //       this.book = item;
-  //       console.log(this.book);
-      
-  //     }
 
-  //     );
-  //   });
 
     ngOnInit() {
       this.route.params.subscribe(params => {
         this.proId = params.id;
         this.productsService.findById(this.proId).subscribe(data => {
-          this.book = data;
+          this.pro = data;
+          console.log(this.pro);
         });
       });
   
@@ -45,15 +34,6 @@ export class ShopDetailComponent implements OnInit {
     
 
 
-  // }
-
-
-  // getid(){
-  //   this.productsService.filBookID(this.proId).subscribe(item=>{
-  //     this.book=item;
-  //     console.log( this.book);// không in đc book
-    
-  //   })
-  // }
+ 
 
 }

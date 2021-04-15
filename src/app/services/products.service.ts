@@ -20,9 +20,9 @@ export class ProductsService {
     return this.http.post<any>(this.API_URL, data);
   }
   findById(id: Number){
-    let API_URL = `${this.API_URL}/${id}`;
+    let requetsApi=`${this.API_URL}/${id}?_expand=category&_expand=supplier`;
     // console.log(API_URL);
-    return this.http.get<any>(API_URL);
+    return this.http.get<any>(requetsApi);
   }
   put(obj: Products): Observable<any>{
     let API_URL = `${this.API_URL}/${obj.id}`;
@@ -55,6 +55,9 @@ getAll(filter: any): Observable<any>{
  if(filter.categories!=""){
   requestApi += `&categoryId=${filter.categories}`;
  }
+ if(filter.supplier!=""){
+  requestApi += `&supplierId=${filter.supplier}`;
+ }
 
   return this.http.get<any>(requestApi);
 }
@@ -70,8 +73,5 @@ DateLimit(embed: boolean = true): Observable<Products[]>{
 }
 
 
-filBookID(bookId:Number): Observable<any>{
-  let requetsApi=`${this.API_URL}/${bookId}?_expand=category&_expand=supplier`;
-  return this.http.get<any>(requetsApi);// tuong tu fetch dang method va giui du lieu dang get
-}
+
 }

@@ -1,0 +1,114 @@
+<div class="d-flex justify-content-between col-xl-12 col-lg-12">
+    <div class="col-xl-12 col-lg-12">
+      <!-- thêm tướng -->
+      <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex justify-content-between">
+          <h6 class="m-0 font-weight-bold text-primary">Thêm tin tức:  </h6><div>{{myDate  | date:"dd/MM/YYYY , h:mm:ss a"}}</div>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <form action="" (ngSubmit)="onSubmit($event)" [formGroup]="cateForm">
+             
+                <div class="form-group col-xl-12 col-lg-12">
+                  <label for="">Loại tin tức</label>
+                  <select formControlName="newcateId"class="form-control">
+                  
+                    <option [value]="0">
+                      {{ "Chọn loại tin tức" | titlecase }}
+                    </option>
+  
+                    <option
+                      *ngFor="let cate of newcate; index as i"
+                      [value]="cate.id"
+                    >
+                      {{ cate.name | titlecase }}
+                    </option>
+                  </select>
+  
+  
+                  <div
+                    class="alert alert-danger"
+                    *ngIf="
+                      f.newcateId.invalid &&
+                      (f.newcateId.dirty || f.newcateId.touched)
+                    "
+                  >
+                    <span class="text-danger" *ngIf="f.newcateId.errors?.min">
+                      Chọn loại tin tức
+                    </span>
+                  </div>
+                </div>
+               
+           
+  
+              <div class="form-group col-xl-12 col-lg-12">
+                <label for="">Tên tin tức</label>
+                <input type="text" formControlName="name" class="form-control" />
+                <div
+                  class="alert alert-danger"
+                  *ngIf="f.name.invalid && (f.name.dirty || f.name.touched)"
+                >
+                  <span class="text-danger" *ngIf="f.name.errors?.required">
+                    Hãy nhập tên tin tức
+                  </span>
+                  <span class="text-danger" *ngIf="f.name.errors?.minlength">
+                    Tên tin tức cần có ít nhất 4 ký tự
+                  </span>
+                  <span class="text-danger" *ngIf="f.name.errors?.maxlength">
+                    Tên tin tức không nhiều hơn 20 ký tự
+                  </span>
+                </div>
+              </div>
+              <div class="form-group col-xl-12 col-lg-12">
+                <label for="">Nội dung tiêu đề</label>
+                <input type="text" formControlName="detail" class="form-control" />
+                <div
+                  class="alert alert-danger"
+                  *ngIf="f.detail.invalid && (f.detail.dirty || f.detail.touched)"
+                >
+                  <span class="text-danger" *ngIf="f.detail.errors?.required">
+                    Hãy nhập nội dung tiêu đề
+                  </span>
+                  <span class="text-danger" *ngIf="f.detail.errors?.minlength">
+                    Nội dung tiêu đề cần có ít nhất 20 ký tự
+                  </span>
+                  <span class="text-danger" *ngIf="f.detail.errors?.maxlength">
+                    Nội dung tiêu đề không nhiều hơn 150 ký tự
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group col-xl-12 col-lg-12">
+                <label for="">Ảnh tin tức</label>
+                <input type="file" formControlName="image" class="form-control" />
+              </div>
+              <!-- {{f.image.value}} -->
+           
+              <div class="form-group col-xl-12 col-lg-12">
+                <label for="">Mô tả tin tức</label>
+                <textarea
+                  name=""
+                  id=""
+                  formControlName="description"
+                  class="col-xl-12 col-lg-12"
+                  rows="20" 
+                ></textarea>
+              </div>
+            
+              <div class="text-center">
+                <button
+                  type="submit"
+                  [disabled]="cateForm.invalid"
+                  class="btn btn-primary"
+                >
+                  Lưu
+                </button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

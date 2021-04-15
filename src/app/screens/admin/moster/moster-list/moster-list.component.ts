@@ -82,7 +82,7 @@ export class MosterListComponent implements OnInit {
   detele(item: any) {
     console.log("test", item.id);
     // lấy thông tin danh mục
-
+    if(confirm('Bạn có chắc chắn muốn xoá không ?')){
     this.productsService.findById(item.id).subscribe(cate => {
 
       console.log(cate);
@@ -90,7 +90,7 @@ export class MosterListComponent implements OnInit {
 
         this.search();
       });
-    });
+    });}
   }
 
 }

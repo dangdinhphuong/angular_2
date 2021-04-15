@@ -9,6 +9,7 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { environment } from 'src/environments/environment';
 import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
 
+
 import { AppComponent } from './app.component';
 import { DasboarchComponent } from './screens/admin/dasboarch/dasboarch.component';
 import { MosterListComponent } from './screens/admin/moster/moster-list/moster-list.component';
@@ -21,6 +22,12 @@ import { LayoutCliComponent } from './screens/client/layout-cli/layout-cli.compo
 import { HomeComponent } from './screens/client/home/home.component';
 import { ShopComponent } from './screens/client/shop/shop.component';
 import { ShopDetailComponent } from './screens/client/shop-detail/shop-detail.component';
+import { NewCateComponent } from './screens/admin/news/new-cate/new-cate.component';
+import { NewListComponent } from './screens/admin/news/new-list/new-list.component';
+import { NewAddComponent } from './screens/admin/news/new-add/new-add.component';
+import { NewEditComponent } from './screens/admin/news/new-edit/new-edit.component';
+import { BlogListComponent } from './screens/client/blog/blog-list/blog-list.component';
+import { BlogDetailComponent } from './screens/client/blog/blog-detail/blog-detail.component';
 
 
 @NgModule({
@@ -31,7 +38,7 @@ import { ShopDetailComponent } from './screens/client/shop-detail/shop-detail.co
     MosterAddComponent,
     MosterEditComponent,
     LayoutComponent, 
-    CateMosterListComponent, SuppliersListComponent, LayoutCliComponent, HomeComponent, ShopComponent, ShopDetailComponent, 
+    CateMosterListComponent, SuppliersListComponent, LayoutCliComponent, HomeComponent, ShopComponent, ShopDetailComponent, NewCateComponent, NewListComponent, NewAddComponent, NewEditComponent, BlogListComponent, BlogDetailComponent, 
   ],
   imports: [
     FormsModule,
@@ -42,7 +49,8 @@ import { ShopDetailComponent } from './screens/client/shop-detail/shop-detail.co
     CommonModule,
     AngularFireStorageModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    NgxPaginationModule
+    NgxPaginationModule,
+
     
   ],
   providers: [],

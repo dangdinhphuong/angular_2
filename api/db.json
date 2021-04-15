@@ -49,7 +49,7 @@
       "date": 1618429591666,
       "categoryId": 3,
       "supplierId": 6,
-      "description": "fgfgdfg",
+      "description": "dsafdsfdf",
       "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618429591666?alt=media&token=59badada-90b1-4b9a-ae96-1d2cae453a73",
       "name": "cams lonw",
       "price": 10000,
@@ -78,14 +78,46 @@
       "id": 7
     }
   ],
-  "cons": [
-    {
-      "id": 1,
-      "name": "Đỗ Đăng Khoa2222"
-    },
+  "news": [
     {
       "id": 2,
-      "name": "Lê Đỗ Quỳnh Hương"
+      "date": 1618521183766,
+      "newcateId": 3,
+      "description": "ngon bổ rẻdfedsfdsf",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618515334331?alt=media&token=55d08f1c-72d7-403c-bba2-b470cbbb2e9c",
+      "name": "khai chương cửa hàng22",
+      "detail": "detailsádfsdfdfgfgdfgh"
+    },
+    {
+      "id": 3,
+      "date": 1618523202262,
+      "newcateId": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618521018118?alt=media&token=cdff5f5f-2abf-4709-af31-30aed52da6a4",
+      "name": "Lorem ipsum dolor ",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?"
+    }
+  ],
+  "newcates": [
+    {
+      "name": "khuyến mại",
+      "id": 1
+    },
+    {
+      "name": "An toàn thực phẩm",
+      "id": 2
+    },
+    {
+      "name": "Ủng hộ",
+      "id": 3
+    },
+    {
+      "id": 3,
+      "name": "Hợp tác "
+    },
+    {
+      "id": 4,
+      "name": "Tặng quà chi ân"
     }
   ]
 }

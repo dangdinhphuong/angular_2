@@ -87,10 +87,11 @@ export class MosterEditComponent implements OnInit {
     const file = event.target[3].files[0];
     const filePath = `Products/${this.myDate}`;
     const fileRef = this.storage.ref(filePath);
-    const task = this.storage.upload(`Products/${this.myDate}`, file);
+
     // console.log(event.target[3].files[0].size);
     console.log(event.target[3].files[0]);
     if (file) {// file = true khi có up ảnh mới
+      const task = this.storage.upload(`Products/${this.myDate}`, file);// up ảnh  lên fire base
       task
         .snapshotChanges().pipe(finalize(() => {
           this.downloadURL = fileRef.getDownloadURL();
