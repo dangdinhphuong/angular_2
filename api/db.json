@@ -18,7 +18,7 @@
     },
     {
       "id": 5,
-      "name": "Thịt các loại2"
+      "name": "Thịt các loại"
     }
   ],
   "products": [
@@ -35,8 +35,8 @@
     },
     {
       "id": 2,
-      "date": 1618485265718,
-      "categoryId": "4",
+      "date": 1618544677798,
+      "categoryId": "3",
       "supplierId": 4,
       "description": "dsafdsfdf",
       "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618381444019?alt=media&token=0aba982b-fcf3-4655-8b64-b8abb726ca26",
@@ -54,6 +54,116 @@
       "name": "cams lonw",
       "price": 10000,
       "sale": 22
+    },
+    {
+      "id": 4,
+      "date": 1618546529615,
+      "categoryId": 1,
+      "supplierId": 3,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546529615?alt=media&token=54b0757a-f31d-4914-ae8b-c596ac6e34c3",
+      "name": "Ca rot  - 500g",
+      "price": 12000,
+      "sale": 0
+    },
+    {
+      "id": 5,
+      "date": 1618546602860,
+      "categoryId": 1,
+      "supplierId": 3,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546602860?alt=media&token=f5a18b7a-2301-4336-9457-5d399751a470",
+      "name": "Bí Đỏ Hữu Cơ",
+      "price": 150000,
+      "sale": 0
+    },
+    {
+      "id": 6,
+      "date": 1618546657191,
+      "categoryId": 2,
+      "supplierId": 4,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546657191?alt=media&token=ee0fd4b1-b0a6-400c-836c-79abf22b15a8",
+      "name": "ca thu",
+      "price": 540000,
+      "sale": 5
+    },
+    {
+      "id": 7,
+      "date": 1618546708401,
+      "categoryId": 3,
+      "supplierId": 5,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546708401?alt=media&token=cd0becbe-eaee-4567-88e8-fa6ce26ddf84",
+      "name": "bap cai ",
+      "price": 15433,
+      "sale": 2
+    },
+    {
+      "id": 8,
+      "date": 1618546894136,
+      "categoryId": "2",
+      "supplierId": "4",
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546894136?alt=media&token=47fc1b79-9ec4-4365-8016-55acaabf6a6a",
+      "name": "tom hum",
+      "price": 15433,
+      "sale": 2
+    },
+    {
+      "id": 10,
+      "date": 1618546777496,
+      "categoryId": 2,
+      "supplierId": 5,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n nhà ta có con chó đấy biết không hà . ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618546777496?alt=media&token=59aec187-fd5e-428e-bc40-7cba85cdccfc",
+      "name": "ca thu",
+      "price": 10000,
+      "sale": 0
+    },
+    {
+      "id": 11,
+      "date": 1618550267229,
+      "categoryId": 5,
+      "supplierId": 7,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n nhà ta có con chó đấy biết không hà . ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618550267229?alt=media&token=8743ca3c-a896-4b6b-a0ee-e1e7a45e3d3b",
+      "name": "Ba rọi-500g",
+      "price": 530000,
+      "sale": 30
+    },
+    {
+      "id": 12,
+      "date": 1618550057138,
+      "categoryId": 5,
+      "supplierId": 6,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n nhà ta có con chó đấy biết không hà . ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618550057138?alt=media&token=7be8bf83-88cd-4154-be56-c5d94aaaa529",
+      "name": "Bắp bò-500g",
+      "price": 650000,
+      "sale": 10
+    },
+    {
+      "id": 13,
+      "date": 1618550130852,
+      "categoryId": 5,
+      "supplierId": 5,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng\n\n nhà ta có con chó đấy biết không hà . ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618550130852?alt=media&token=34cfd7a4-254f-4fe3-a5df-856d779b9b1f",
+      "name": "Bộ xương gà",
+      "price": 230000,
+      "sale": 15
+    },
+    {
+      "id": 14,
+      "date": 1618714647876,
+      "categoryId": 3,
+      "supplierId": 3,
+      "description": "GIỚI THIỆU SẢN PHẨM • Cà chua là một loại rau quả làm thực phẩm. Quả ban đầu có màu xanh, chín ngả màu từ vàng đến đỏ. Cà chua có vị hơi chua và là một loại thực phẩm bổ dưỡng, giàu vitamin C và A, đặc biệt là giàu lycopeme tốt cho sức khỏe. CÔNG DỤNG • Cà chua có rất nhiều công dung cả về chữa bệnh và làm đẹp. công dụng làm đẹp của cà chua như: chống lão hóa, làm da mịn màng tươi sáng, bảo vệ bề mặt da .... • Công dụng chữa bệnh của cà chua rất nhiều, chẳng hạn như: phòng chống ung thư, chữa viêm gan mãn tính, hỗ trợ cho người bị viêm thận, chữa bệnh tim mach, chữa bí đại tiện, thiếu máu, chữa mún nhọt, bõng lửa, chữa sốt cao kèm theo khát nước hay chữa tăng huyết áp, chảy máu chân răng... CÁCH SỬ DỤNG • Cà chua là nguyên liệu chính cho món sốt cà thơm ngon để ăn chung với các món khác như: đậu phụ sốt cà chua, cá chiên sốt cà chua, bắp chiên-phô mai sốt cà chua, ..... • Cà chua dùng làm món canh như: canh mẫn, canh chua, canh bí ngòi đạu phụ cà chua hay canh sường cà chua... • Cà chua có thể được ăn sống với món salad, hay ép thành nước hoa quả bổ dưỡng...   LƯỢNG DÙNG • Một đến hai quả cà chua mỗi ngày dùng trong bữa ăn sẽ rất tốt cho sức khỏe của bạn.... CÁCH BẢO QUẢN • Cà chua thường chín rất nhanh khi để ở nhiệt độ phòng",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/Products%2F1618714647876?alt=media&token=fb1ed5e6-d183-4f6a-850f-d315d5726370",
+      "name": "Táo đỏ thái lát",
+      "price": 650000,
+      "sale": 12
     }
   ],
   "suppliers": [
@@ -81,21 +191,48 @@
   "news": [
     {
       "id": 2,
-      "date": 1618521183766,
+      "date": 1618550317567,
       "newcateId": 3,
-      "description": "ngon bổ rẻdfedsfdsf",
-      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618515334331?alt=media&token=55d08f1c-72d7-403c-bba2-b470cbbb2e9c",
-      "name": "khai chương cửa hàng22",
-      "detail": "detailsádfsdfdfgfgdfgh"
+      "description": "Việc ưu tiên những nơi gần với cửa hàng giúp thực phẩm luôn tươi ngon cũng như tiết kiệm được chi phí vận chuyển và thời gian. Trước khi nhập hàng, chủ cơ sở cần tìm hiểu cách bảo quản từng loại thực phẩm, hiểu rõ về quy trình sản xuất, năng lực nhà cung cấp và ký hợp đồng cam kết hợp tác chặt chẽ giữa hai bên để gắn trách nhiệm của nhà sản xuất với sản phẩm của họ.\n\nLoi Khuyen Khoi Nghiep 02\n\nCửa hàng thực phẩm sạch nên tập trung vào những dòng sản phẩm sản xuất theo phương pháp hữu cơ, sản phẩm tự nhiên, đặc sản vùng miền hoặc theo tiêu chuẩn VietGap, GlobalGap. Nếu gặp khó khăn về nguồn hàng, chủ cửa hàng có thể liên hệ với chương trình “Nông Nghiệp Sạch” để được tư vấn và cung cấp địa chỉ mua nông sản đã được Cục quản lý chất lượng cấp phép.\n\nNhân sự\n\nVào những ngày đầu, chủ cửa hàng nên là người trực tiếp làm việc tại đây và chỉ cần tuyển thêm 2-3 nhân sự chính (full-time) gồm thu ngân kiêm kế toán, bán hàng kiêm sơ chế thực phẩm, người vận chuyển kiêm lấy hàng.\n\nBan đầu, do lượng khách chưa nhiều nên chủ cửa hàng cần tận dụng thời gian để đào tạo nhân viên, giúp họ trở nên linh hoạt. Sau khoảng vài tháng, khi đã hiểu về các công việc, chủ cửa hàng có thể đào tạo lại cho người khác làm thay mình, tiếp nhận vị trí quản lý chung.\n\nMarketing\n\nTrước khi mở cửa hàng, chủ cơ sở nên chuẩn bị khoảng 2.000-5.000 tờ rơi để giới thiệu, đồng thời, tìm hiểu thói quen mua sắm, nhu cầu, tạo mối quan hệ với người dân khu vực và chính quyền địa phương. Điều này sẽ tạo nên một kênh marketing truyền miệng hiệu quả tại khu vực đặt cửa hàng, từ đó, người dân xung quanh sẽ nhanh chóng tìm đến.\n\nNgoài ra, chủ cửa hàng cũng nên tạo kênh marketing và bán hàng online trước khi khai trương thông qua website, Facebook, Zalo, YouTube…, để quảng bá thương hiệu tới khách hàng.\n\nThiết bị, vật dụng thiết yếu và cách xây dựng cửa hàng\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618550317567?alt=media&token=bedb8ce2-c2f5-4fec-9f8c-fc1f7249edbd",
+      "name": "CỬA HÀNG CẦN TỐI THIỂU MỘT TỦ ĐÔNG ",
+      "detail": "Việc ưu tiên những nơi gần với cửa hàng giúp thực phẩm luôn tươi ngon cũng như tiết kiệm được chi phí vận chuyển và thời gian"
     },
     {
       "id": 3,
-      "date": 1618523202262,
+      "date": 1618550599087,
       "newcateId": 1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?",
-      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618521018118?alt=media&token=cdff5f5f-2abf-4709-af31-30aed52da6a4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618550599087?alt=media&token=3f98b462-e82e-435a-a6cc-6e745f8237a2",
       "name": "Lorem ipsum dolor ",
       "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, modi?"
+    },
+    {
+      "id": 4,
+      "date": 1618550523329,
+      "newcateId": 2,
+      "description": "Một trong những yếu tố quan trọng để tạo nên thành công của một cửa hàng thực phẩm sạch đó là nguồn hàng đảm bảo an toàn vệ sinh thực phẩm, có nguồn gốc rõ ràng, ổn định về số lượng và chất lượng. Ví dụ, ở Hà Nội, chủ cửa hàng có thể tìm nguồn cung các mặt hàng rau củ quả, thịt, trứng tại các cơ sở hay bà con nông dân ở Hòa Bình, Sóc Sơn, Vĩnh Phúc…, mặt hàng thủy hải sản có thể tìm đầu mối ở Quảng Ninh, Hải Phòng, Nam Định…\n\nViệc ưu tiên những nơi gần với cửa hàng giúp thực phẩm luôn tươi ngon cũng như tiết kiệm được chi phí vận chuyển và thời gian. Trước khi nhập hàng, chủ cơ sở cần tìm hiểu cách bảo quản từng loại thực phẩm, hiểu rõ về quy trình sản xuất, năng lực nhà cung cấp và ký hợp đồng cam kết hợp tác chặt chẽ giữa hai bên để gắn trách nhiệm của nhà sản xuất với sản phẩm của họ.\n\nLoi Khuyen Khoi Nghiep 02\n\nCửa hàng thực phẩm sạch nên tập trung vào những dòng sản phẩm sản xuất theo phương pháp hữu cơ, sản phẩm tự nhiên, đặc sản vùng miền hoặc theo tiêu chuẩn VietGap, GlobalGap. Nếu gặp khó khăn về nguồn hàng, chủ cửa hàng có thể liên hệ với chương trình “Nông Nghiệp Sạch” để được tư vấn và cung cấp địa chỉ mua nông sản đã được Cục quản lý chất lượng cấp phép.\n\nNhân sự\n\nVào những ngày đầu, chủ cửa hàng nên là người trực tiếp làm việc tại đây và chỉ cần tuyển thêm 2-3 nhân sự chính (full-time) gồm thu ngân kiêm kế toán, bán hàng kiêm sơ chế thực phẩm, người vận chuyển kiêm lấy hàng.\n\nBan đầu, do lượng khách chưa nhiều nên chủ cửa hàng cần tận dụng thời gian để đào tạo nhân viên, giúp họ trở nên linh hoạt. Sau khoảng vài tháng, khi đã hiểu về các công việc, chủ cửa hàng có thể đào tạo lại cho người khác làm thay mình, tiếp nhận vị trí quản lý chung.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618550523329?alt=media&token=dafb992a-6d3a-4b09-970d-0b18fe3ad6b7",
+      "name": "NHỮNG YẾU TỐ QUAN TRỌNG ĐỂ TẠO NÊN THÀNH CÔNG",
+      "detail": "Một trong những yếu tố quan trọng để tạo nên thành công của một cửa hàng thực phẩm sạch đó là nguồn hàng đảm bảo an toàn vệ sinh thực phẩm, "
+    },
+    {
+      "id": 5,
+      "date": 1618550630134,
+      "newcateId": 3,
+      "description": "Thị trường thực phẩm sạch hiện là mảnh đất màu mỡ cho những người yêu thích kinh doanh. Người tiêu dùng Việt ngày càng chuộng các loại thực phẩm có nguồn gốc rõ ràng, tuân thủ các quy định chất lượng hay chứng nhận vệ sinh an toàn. Tuy nhiên, không phải bất kỳ cửa hàng thực phẩm sạch nào ra đời cũng được duy trì thành công. Để phát triển bền vững thương hiệu của mình, anh Trần Quân – CEO chuỗi cửa hàng thực phẩm sạch Sói Biển đã bỏ ra nhiều công sức, lên kế hoạch tỉ mỉ trước khi quyết định đầu tư.\n\nLoi Khuyen Khoi Nghiep\n\nAnh cho biết, bước thứ nhất của kế hoạch mà mỗi người cần lưu ý là “Chuẩn bị cho cửa hàng”. Vấn đề này gồm 9 việc cơ bản gồm đặt tên thương hiệu; chọn địa điểm; vốn; nguồn hàng; nhân sự; marketing; thiết bị, vật dụng thiết yếu và cách xây dựng cửa hàng; trang trí cửa hàng.\n\nTên thương hiệu\n\nThương hiệu giúp khẳng định sứ mệnh, tầm nhìn và những gì mà cửa hàng có thể mang lại cho xã hội thông qua mô hình kinh doanh. Nó cần tạo được sự khác biệt và ấn tượng trong cái tên, slogan, logo, nhận diện. Tên thương hiệu không nên quá dài hay khó nhớ, cũng không thể trùng lặp khiến khách hàng khó tìm.\n\nBất kỳ ý tưởng nào cũng có thể được đưa ra để cùng thảo luận, góp ý. Ngoài ra, ông, bà chủ cũng có thể thuê một đơn vị truyền thông để xây dựng hình ảnh chuyên nghiệp của cửa hàng ngay từ đầu.\n\nĐịa điểm\n\nĐiều này sẽ quyết định tới 40% sự thành công của mô hình kinh doanh. Cửa hàng thực phẩm sạch nên nằm ở khu vực tập trung dân cư có thu nhập tốt; gần trường học, chợ hoặc nơi đông nhân viên văn phòng. Với những khu đô thị xa chợ và siêu thị, bạn nên mở cửa hàng ở tầng một của khu chung cư để thuận tiện cho người dân.\n\nDiện tích cửa hàng ban đầu nên rộng khoảng 35-50m2. Mặt tiền cần ít nhất 4 mét để người mua hàng thuận tiện trong việc đỗ xe. Vỉa hè trước mặt nên có bóng râm để tránh ánh nắng rọi trực tiếp vào cửa hàng, dễ làm hỏng thực phẩm bày bán bên trong.\n\nLoi Khuyen Khoi Nghiep 01\n\nHiện nay, mức phí thuê mặt bằng dao động 6-12 triệu đồng một tháng đối với khu vực ngoại thành và 15-35 triệu đồng một tháng với khu trung tâm. Việc lựa chọn địa điểm hoàn toàn phụ thuộc vào tiềm lực tài chính của mỗi người. Với những người mới khởi nghiệp, mức an toàn để thuê một địa điểm kinh doanh là 10-15 triệu đồng.\n\nVốn đầu tư\n\nTheo anh Trần Quân: “Vấn đề không nằm ở việc bạn có bao nhiêu vốn để mở cửa hàng mà nằm ở chỗ bạn có đủ tâm huyết, chăm chỉ và quyết tâm mở cửa hàng hay không”.\n\nTrong thực tế, nhiều cửa hàng được mở ra với số vốn khoảng 100 triệu đồng nhưng nhờ phương pháp vận hành tốt mà doanh thu ngày một tăng, bên cạnh đó cũng có cửa hàng được đầu tư tới cả tỷ đồng tiền vốn nhưng sau vài tháng thì đóng cửa. Việc trụ vững trên thị trường phụ thuộc vào nhiều yếu tố nhưng quan trọng là quyết tâm, phương pháp của người chủ.\n\nVới kinh nghiệm mở 9 cửa hàng, anh Trần Quân cho biết: “Hiện nay, để mở cửa hàng thực phẩm sạch, bạn cần đầu tư tối thiểu khoảng 250 triệu đồng”. Anh cũng chia sẻ, nếu chưa đủ vốn, người kinh doanh có thể tham khảo gói tín dụng ưu đãi phục vụ phát triển nông nghiệp sạch của Agribank. Theo đó, người vay vốn được áp dụng mức lãi suất ưu đãi thấp hơn 0,5-1,5% so với lãi suất cho vay thông thường. Ngân hàng sẽ ưu tiên xem xét cấp tín dụng ngắn hạn không có tài sản bảo đảm đối với các khách hàng tốt hay khách hàng truyền thống của Agribank.\n\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618550630134?alt=media&token=845f491e-eb64-4fd1-b6bd-99f75862948e",
+      "name": "KHỞI NGHIỆP VỚI THỰC PHẨM SẠCH",
+      "detail": "Thị trường thực phẩm sạch hiện là mảnh đất màu mỡ cho những người yêu thích kinh doanh. Người tiêu dùng Việt ngày càng chuộng các loại thực phẩm"
+    },
+    {
+      "id": 6,
+      "date": 1618550706350,
+      "newcateId": 4,
+      "description": "Cuộc sống ngày càng hiện đại, con người ngày càng quan tâm hơn đến chất lượng sống. Trong đó, thực phẩm an toàn luôn là lựa chọn hàng đầu của người tiêu dùng. Một số người sẽ tin dùng các sản phẩm thực phẩm sạch, trong khi số khác sẽ tin dùng các sản phẩm hữu cơ. Mặc dù cả hai đều là thực phẩm an toàn, thế nhưng cũng có những đặc điểm khác biệt. Chính vì thế, hàng loạt câu hỏi được người tiêu dùng đưa ra như “thực phẩm sạch là gì” hay “thực phẩm hữu cơ là gì” hoặc “giữa 2 loại thực phẩm này loại nào tốt hơn” …\n \n\nThực phẩm sạch là gì?\nTheo các chuyên gia, thực phẩm sạch là những loại thực phẩm được nuôi trồng với những quy định nhất định. Khi chăm sóc, người nông dân có thể sử dụng thuốc trừ sâu hoặc những loại thuốc hóa học tổng hợp,…Nhưng, chỉ được sử dụng ở một mức độ cho phép, và sản phẩm khi thu hoạch phải đảm bảo:\n \n\n \n- Không chứa tồn dư thuốc BVTV, hóa chất, kháng sinh cấm hoặc vượt quá giới hạn cho phép;\n- Không chứa tạp chất (kim loại, thủy tinh, vật cứng,…);\n- Không chứa các tác nhân sinh học gây bệnh như: virus, vi sinh vật, ký sinh trùng,…;\n- Có nguồn gốc, xuất xứ đầy đủ, rõ ràng;\n- Được kiểm tra, đánh giá chứng nhận về ATTP;\n \nKhi đó, sản phẩm được đưa ra thị trường sẽ còn dư lượng độc hại dưới mức cho phép, không gây hại cho sức khỏe người tiêu dùng.\nThực phẩm hữu cơ là gì?\nTại Việt Nam, khái niệm Organic vẫn còn là một điều gì đó khá xa lạ. Thậm chí nhiều người còn lầm tưởng rằng thực phẩm hữu cơ chính là thực phẩm sạch. Tuy nhiên, lại không phải vậy.\n \nĐể được cấp chứng nhận hữu cơ, đòi hỏi thực phẩm đó phải tuân thủ theo những quy định hữu cơ nghiêm ngặt khi nuôi trồng, chẳng hạn: nguồn nước tưới và chăn nuôi phải là nước giếng sạch, không phải là nước sông, và quan trọng nhất là không sử dụng bất kỳ hóa chất nào. Thực phẩm hữu cơ rất đa dạng, từ thực phẩm tươi sống như rau củ quả hay trái cây đến cả những thực phẩm như: thịt, cá, trứng, sữa,…\n \n>>>Bài viết liên quan: Sản phẩm hữu cơ là gì?\n \n\n \nĐể có cái nhìn tổng quan hơn, chúng tôi lấy ví dụ về loại thực phẩm dùng hàng ngày là thịt lợn. Nếu như lợn được nuôi để cung cấp thịt sạch có thể cho ăn bằng nhiều người thức ăn khác nhau, miễn là không sử dụng hóa chất độc hại và tiêm thuốc tăng trưởng,… thì lợn được nuôi để cung cấp thịt hữu cơ phải được nuôi theo điều kiện thức ăn tiêu chuẩn, nguồn thực phẩm phải hoàn toàn tự nhiên và hữu cơ.\n \nBên cạnh đó, việc sản xuất thực phẩm hữu cơ cũng đòi hỏi được thực hiện trong một hệ sinh thái đảm bảo, không được phép gần các nhà máy công nghiệp, không gần quốc lộ, tại vùng đất nền và nguồn nước có dư lượng kim loại và các chất độc hại tự nhiên thấp.\nKết luận\nTừ những định nghĩa trên cho thấy, cả hai loại thực phẩm đều an toàn cho người tiêu dùng. Tuy nhiên, với những ai có nhu cầu nghiêm ngặt hơn về chất lượng họ sẽ lựa chọn những loại thực phẩm được chứng nhận hữu cơ. Không chỉ riêng thực phẩm, các sản phẩm hữu cơ hỗ trợ cho việc làm sạch thực phẩm tươi sống như nước rửa trái cây hữu cơ hay những sản phẩm tẩy rửa gia dụng như: nước rửa chén hữu cơ, nước lau bếp hữu cơ, bột giặt hữu cơ cho em bé,… cũng đang chiếm được sự tin tưởng của người tiêu dùng hiện nay.\n \n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-4ead9.appspot.com/o/News%2F1618550706350?alt=media&token=94e64ab9-25de-41b0-8fac-6b0230b2d84f",
+      "name": " THỰC PHẨM SẠCH VÀ THỰC PHẨM HỮU CƠ",
+      "detail": "Cuộc sống ngày càng hiện đại, con người ngày càng quan tâm hơn đến chất lượng sống. Trong đó, thực phẩm an toàn"
     }
   ],
   "newcates": [

@@ -2,7 +2,7 @@
 <div class="card shadow mb-4">
     <div class="card-header py-3 d-flex justify-content-between bg-gray-900">
         <div class="row d-flex flex-row col-11">
-            <div class="col-5">
+            <div class="col-4">
                 <input type="text" class="form-control" 
                     [(ngModel)]="filterObject.keyword"
                     (keyup)="search()"
@@ -38,8 +38,15 @@
                     <option *ngFor="let ord of suppli" 
                             [value]="ord.id">{{ord.name}}</option>
                 </select>
+
+              
             </div>
-          
+            <div class="col-1">
+                <input type="number" class="form-control" 
+                    [(ngModel)]="filterObject.pagesize"
+                    (change)="size()"
+                    placeholder="Tìm kiếm">
+            </div>
            
            
         </div>
@@ -79,7 +86,7 @@
                     currentPage:page ,
                     totalItems: cates.length }" style="text-align: center;"> -->
 
-                    <tr *ngFor="let cate of cates  | paginate: {itemsPerPage: 10 , currentPage: page}; let i = index" >
+                    <tr *ngFor="let cate of cates  | paginate: {itemsPerPage: Pegesize , currentPage: page}; let i = index" >
                         <td>{{ i + 1 }}</td>
                         <td ><span *ngIf="cate.category != undefined">{{cate.category.name}}</span></td>
                         <td >{{cate.supplier.name}}</td>
@@ -107,3 +114,7 @@
         </div>
     </div>
 </div>
+<!-- 
+giải thích chức năng
+kiến thức lý thuyết
+ -->

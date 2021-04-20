@@ -61,11 +61,11 @@
                 <div
                   class="alert alert-danger"
                   *ngIf="
-                    f.categoryId.invalid &&
-                    (f.categoryId.dirty || f.categoryId.touched)
+                    f.supplierId.invalid &&
+                    (f.supplierId.dirty || f.supplierId.touched)
                   "
                 >
-                  <span class="text-danger" *ngIf="f.categoryId.errors?.min">
+                  <span class="text-danger" *ngIf="f.supplierId.errors?.min">
                     Chọn loại sản phẩm
                   </span>
                 </div>

@@ -20,12 +20,14 @@ export class MosterListComponent implements OnInit {
   cate: categories[] = [];
   suppli:suppliers[]=[];
   totalLength:any;
-  page: number = 1;
+  page: number = 3;
+  Pegesize: number = 3;
   filterObject = {
     keyword: "",
     orderBy: "1",
     supplier:"",
     categories:"",
+    pagesize:3
   }
   orderCondition: any[] = [
     {
@@ -53,7 +55,11 @@ export class MosterListComponent implements OnInit {
     this.getSuppliData();
 
   }
-
+  size(){
+    console.log(this.filterObject.pagesize);
+    this.Pegesize=this.filterObject.pagesize
+    this.page=1;
+  }
   //------ get export data-----
   getCateData() {
     this.categorysService.all().subscribe(data => {

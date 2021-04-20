@@ -2,7 +2,7 @@
 
 <div id="content" class=" col-xl-12 col-lg-12 d-flex justify-content-start">
     <div class="col-xl-9 col-lg-9">
-    <div class="d-flex justify-content-start" *ngFor="let new of news  | paginate: {itemsPerPage: 3 , currentPage: page};">
+    <div class="d-flex justify-content-start" style="margin: 10px 0;" *ngFor="let new of news  | paginate: {itemsPerPage: 3 , currentPage: page};">
         <a href="javascript:;" routerLink="/blog/blogdetail/{{new.id}}">
         <img  src="{{new.image}}" style="width:200px; margin: 0px !important;" ></a>
         <div class="media-body">

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {CategorysService} from'../../../services/categorys.service';
+import {NewsService} from'../../../services/news.service';
 import { ProductsService } from '../../../services/products.service';
-import{categories} from'../../../models/categories';
+import{new_paper} from'../../../models/new_paper';
 import { Products } from '../../../models/products';
 @Component({
   selector: 'app-home',
@@ -12,10 +12,12 @@ export class HomeComponent implements OnInit {
   data!: any[];
   pro: Products[] = [];
   sale: Products[] = [];
-  constructor( private productsService:ProductsService) { }
+  news: new_paper[] = []; 
+  constructor( private productsService:ProductsService,private newsService:NewsService) { }
   ngOnInit(): void {
     this.getDateLimitData();
     this.getSaleLimitData();
+    this.getEventData();
   }
 //---start export data
   getDateLimitData(){
@@ -29,6 +31,13 @@ export class HomeComponent implements OnInit {
     this.productsService.SaleLimit().subscribe(data => {
       this.sale = data;
       console.log(data);
+      
+    });
+  }
+  getEventData(){
+    this.newsService.DateLimit().subscribe(data => {
+      this.news = data;
+      console.log('test',data);
       
     });
   }

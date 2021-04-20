@@ -60,5 +60,9 @@ if(id>0){
 
   return this.http.get<new_paper>(API_URL);
 }
-
+DateLimit(embed: boolean = true): Observable<new_paper[]>{
+  let requestUrl = this.API_URL;
+  if(embed) requestUrl += '?_expand=newcate&_sort=date&_order=desc&_start=0&_end=4';
+  return this.http.get<new_paper[]>(requestUrl);
+}
 }

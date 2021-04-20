@@ -7,20 +7,68 @@
           class="carousel slide"
           data-ride="carousel"
         >
+        <!-- news -->
           <div class="carousel-inner">
             <div class="carousel-item active">
+              <a href="javascript:;" routerLink="/blog/blogList/{{news[0].newcateId}}">
               <img
                 class="d-block col-12"
-                src="https://img4.thuthuatphanmem.vn/uploads/2020/05/13/anh-nen-4k-bo-bien_062606396.jpg"
+                src="{{news[0].image}}"
                 style="height: 350px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h3 style="color: red">Lorem ipsum</h3>
+                <h3 style="color: red">{{news[0].name}}</h3>
                 <h2>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione, temporibus?
+                  {{news[0].detail}}
                 </h2>
               </div>
+              </a>
+            </div>
+
+            <div class="carousel-item">
+              <a href="javascript:;" routerLink="/blog/blogList/{{news[1].newcateId}}">
+                <img
+                  class="d-block col-12"
+                  src="{{news[1].image}}"
+                  style="height: 350px"
+                />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: red">{{news[1].name}}</h3>
+                <h2>
+                  {{news[1].detail}}
+                </h2>
+              </div>
+            </a>
+            </div>
+            <div class="carousel-item ">
+              <a href="javascript:;" routerLink="/blog/blogList/{{news[2].newcateId}}">
+                <img
+                  class="d-block col-12"
+                  src="{{news[2].image}}"
+                  style="height: 350px"
+                />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: red">{{news[2].name}}</h3>
+                <h2>
+                  {{news[2].detail}}
+                </h2>
+              </div>
+            </a>
+            </div>
+            <div class="carousel-item ">
+              <a href="javascript:;" routerLink="/blog/blogList/{{news[3].newcateId}}">
+                <img
+                  class="d-block col-12"
+                  src="{{news[3].image}}"
+                  style="height: 350px"
+                />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: red">{{news[3].name}}</h3>
+                <h2>
+                  {{news[3].detail}}
+                </h2>
+              </div>
+            </a>
             </div>
           </div>
           <a

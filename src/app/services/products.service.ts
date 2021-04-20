@@ -16,7 +16,7 @@ export class ProductsService {
     if(embed) requestUrl += '?_expand=category&_expand=supplier';
     return this.http.get<Products[]>(requestUrl);
   }
-  store(data: any): Observable<any>{
+  store(data: any){
     return this.http.post<any>(this.API_URL, data);
   }
   findById(id: Number){
@@ -71,7 +71,4 @@ DateLimit(embed: boolean = true): Observable<Products[]>{
   if(embed) requestUrl += '?_expand=categoryr&_sort=date&_order=desc&_start=0&_end=3';
   return this.http.get<Products[]>(requestUrl);
 }
-
-
-
 }
